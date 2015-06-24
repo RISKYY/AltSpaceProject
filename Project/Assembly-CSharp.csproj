@@ -39,15 +39,18 @@
 	<Reference Include="System.Core" />
 	<Reference Include="System.Xml.Linq" />
 	<Reference Include="UnityEngine">
-	  <HintPath>T:/Program Files (x86)/Unity_4/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	  <HintPath>C:/Program Files (x86)/Unity_4/Editor/Data/Managed/UnityEngine.dll</HintPath>
 	</Reference>
 	<Reference Include="UnityEditor">
-	  <HintPath>T:/Program Files (x86)/Unity_4/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	  <HintPath>C:/Program Files (x86)/Unity_4/Editor/Data/Managed/UnityEditor.dll</HintPath>
 	</Reference>
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Altspace\Scripts\LockCursor.cs" />
      <Compile Include="Assets\Altspace\Scripts\MenuScript.cs" />
+     <Compile Include="Assets\Altspace\Scripts\MenuScriptDelete.cs" />
+     <Compile Include="Assets\Altspace\Scripts\MenuScriptPick.cs" />
+     <Compile Include="Assets\Altspace\Scripts\MenuScriptPut.cs" />
      <Compile Include="Assets\Altspace\Scripts\SelectorBehavior.cs" />
      <Compile Include="Assets\Altspace\Scripts\SphericalCoordinates.cs" />
      <Compile Include="Assets\Altspace\Scripts\SphericalCursorModule.cs" />
@@ -56,7 +59,7 @@
      <None Include="Assets\Standard Assets\Glass Refraction (Pro Only)\Sources\Shaders\Glass-Stained-BumpDistort.shader" />
      <None Include="Assets\Altspace\Scripts\FlatColor.shader" />
  <Reference Include="UnityEngine.UI">
- <HintPath>T:/Program Files (x86)/Unity_4/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.6/UnityEngine.UI.dll</HintPath>
+ <HintPath>C:/Program Files (x86)/Unity_4/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.6/UnityEngine.UI.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>

@@ -1,0 +1,25 @@
+Initialize engine version: 4.6.6f2 (ab0b38d96363)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 10.1]
+    Renderer: Intel(R) HD Graphics 3000 (ID=0x126)
+    Vendor:   Intel
+    VRAM:     128 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\a0273123\Documents\GitHub\AltSpaceProject\Builds\Basic\AltSpaceCursor_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\a0273123\Documents\GitHub\AltSpaceProject\Builds\Basic\AltSpaceCursor_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\a0273123\Documents\GitHub\AltSpaceProject\Builds\Basic\AltSpaceCursor_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Users\a0273123\Documents\GitHub\AltSpaceProject\Builds\Basic\AltSpaceCursor_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\a0273123\Documents\GitHub\AltSpaceProject\Builds\Basic\AltSpaceCursor_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\a0273123\Documents\GitHub\AltSpaceProject\Builds\Basic\AltSpaceCursor_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\a0273123\Documents\GitHub\AltSpaceProject\Builds\Basic\AltSpaceCursor_Data\Managed\Assembly-UnityScript-firstpass.dll (this message is harmless)
+Loading C:\Users\a0273123\Documents\GitHub\AltSpaceProject\Builds\Basic\AltSpaceCursor_Data\Managed\Assembly-UnityScript-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\a0273123\Documents\GitHub\AltSpaceProject\Builds\Basic\AltSpaceCursor_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\a0273123\Documents\GitHub\AltSpaceProject\Builds\Basic\AltSpaceCursor_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+- Completed reload, in  0.069 seconds
+desktop: 1050x1680 60Hz; virtual: 2650x1680 at -1600,0
+<RI> Initializing input.
+<RI> Input initialized.
+Platform assembly: C:\Users\a0273123\Documents\GitHub\AltSpaceProject\Builds\Basic\AltSpaceCursor_Data\Managed\System.Core.dll (this message is harmless)
+WARNING: Shader Unsupported: 'Reflective/VertexLit' - Pass 'BASE' shader state not supported
+Platform assembly: C:\Users\a0273123\Documents\GitHub\AltSpaceProject\Builds\Basic\AltSpaceCursor_Data\Managed\Boo.Lang.dll (this message is harmless)

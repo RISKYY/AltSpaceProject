@@ -33,6 +33,21 @@ public class SphericalCoordinates
 		polar = p;
 		elevation = e;
 	}
+
+	public SphericalCoordinates(Vector3 cartesianCoordinate,
+	                            float minRadius = 0.0f, float maxRadius = 100.0f,
+	                            float minPolar = 0.0f, float maxPolar = -COMMONSPHERE_2mPI,
+	                            float minElevation = -COMMONSPHERE_PId3, float maxElevation = COMMONSPHERE_PId3)
+	{
+		_minRadius = minRadius;
+		_maxRadius = maxRadius;
+		_minPolar = minPolar;
+		_maxPolar = maxPolar;
+		_minElevation = minElevation;
+		_maxElevation = maxElevation;
+		
+		FromCartesian (cartesianCoordinate);
+	}
 	
 	public float radius {
 		get{ return _radius;}
