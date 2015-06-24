@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Altspace\Scripts\LockCursor.cs" />
+     <Compile Include="Assets\Altspace\Scripts\MenuScript.cs" />
      <Compile Include="Assets\Altspace\Scripts\SelectorBehavior.cs" />
      <Compile Include="Assets\Altspace\Scripts\SphericalCoordinates.cs" />
      <Compile Include="Assets\Altspace\Scripts\SphericalCursorModule.cs" />
@@ -55,7 +56,7 @@
      <None Include="Assets\Standard Assets\Glass Refraction (Pro Only)\Sources\Shaders\Glass-Stained-BumpDistort.shader" />
      <None Include="Assets\Altspace\Scripts\FlatColor.shader" />
  <Reference Include="Assembly-UnityScript-firstpass">
- <HintPath>C:/Users/Ricky/Documents/GitHub/altspacevr-project-unity-cursor-master/Project/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
+ <HintPath>C:/Users/Ricky/Documents/GitHub/AltSpaceProject/Project/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>T:/Program Files (x86)/Unity_4/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.6/UnityEngine.UI.dll</HintPath>

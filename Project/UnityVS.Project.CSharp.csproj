@@ -64,6 +64,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Altspace\Scripts\LockCursor.cs" />
+    <Compile Include="Assets\Altspace\Scripts\MenuScript.cs" />
     <Compile Include="Assets\Altspace\Scripts\SelectorBehavior.cs" />
     <Compile Include="Assets\Altspace\Scripts\SphericalCoordinates.cs" />
     <Compile Include="Assets\Altspace\Scripts\SphericalCursorModule.cs" />

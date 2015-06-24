@@ -17,10 +17,6 @@ public class SphericalCursorModuleWithSelector : MonoBehaviour {
 	// This is the Cursor game object. Your job is to update its transform on each frame.
 	private GameObject Cursor;
 
-	private GameObject SelectorDisk;
-
-	private Vector3 SelectedDiskObj;
-
 	// This is the Cursor mesh. (The sphere.)
 	private MeshRenderer CursorMeshRenderer;
 
@@ -33,9 +29,14 @@ public class SphericalCursorModuleWithSelector : MonoBehaviour {
 	// Coordinates in Spherical Coordinates of the cursor
 	private SphericalCoordinates _SphereCoords;
 
+	// Menu
+	private GameObject _MenuObject;
+
     void Awake() {
 		this._SphereCoords = new SphericalCoordinates(SphereRadius, Mathf.PI/2.0f, 0f, 0f, SphereRadius);
 		Cursor = transform.Find("Cursor").gameObject;
+		_MenuObject = transform.Find ("Game Menu").gameObject;
+		_MenuObject.SetActive (false);
 		CursorMeshRenderer = Cursor.transform.GetComponentInChildren<MeshRenderer>();
         CursorMeshRenderer.renderer.material.color = new Color(0.0f, 0.8f, 1.0f);
     }	
@@ -68,6 +69,9 @@ public class SphericalCursorModuleWithSelector : MonoBehaviour {
 
 			if(Input.GetKey (KeyCode.Mouse0))
 			{
+				if(_MenuObject.activeSelf)
+					_MenuObject.SetActive(false);
+					
 				SelectorBehavior.CurrentSelection = cursorHit.collider.gameObject;
 				SelectorBehavior.EnableSelector = true;
 
@@ -82,8 +86,15 @@ public class SphericalCursorModuleWithSelector : MonoBehaviour {
 
 			if(Input.GetKey(KeyCode.Mouse0))
 			{
+				if(_MenuObject.activeSelf)
+					_MenuObject.SetActive(false);
+
 				SelectorBehavior.EnableSelector = false;
 			}
+		}
+
+		if (Input.GetKey (KeyCode.Mouse1)) {
+			_MenuObject.SetActive (true);
 		}
 
 	}
